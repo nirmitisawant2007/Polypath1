@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:animateLayoutChanges="true"> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="24dp"
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:text="Frequently Asked Questions"
+    android:textColor="#2E7D32"
+    android:textSize="26sp"
+    android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layout_faq1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q1: What is the primary purpose of PolyPath?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: PolyPath is a dedicated platform for MSBTE diploma students to access study materials, exam updates, and scholarship info."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q2: Is it mandatory to create an account to use the app?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans:Yes, registration is required to ensure user data security and to provide personalized academic notifications."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+
+            <LinearLayout
+                android:id="@+id/layout_faq3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q3: Does the app work offline?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: No, an active internet connection is required to load PDFs and receive real-time announcements."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q4: Is this app limited to Government Polytechnic students only?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: No, any student from a government, aided, or private polytechnic affiliated with MSBTE can use it."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q5:What does the name 'PolyPath' represent?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow5"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans:'Poly' stands for Polytechnic and 'Path' signifies the right direction toward academic success for diploma students."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q6: What type of study materials are available in the app?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow6"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: You can find K-Scheme laboratory manual answers, syllabus , and previous year question papers."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q7:  Can I download the study materials for offline use?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow7"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: Currently, you can view all PDFs within the app. A download feature is planned for a future update."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q8:How can I request notes for a specific subject?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow8"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: You can use the 'Feedback' section to suggest subjects or specific topics you need materials for."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q9:What information is included in the Academic Calendar?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow9"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans:It includes the schedule for MSBTE exams, enrollment dates, public holidays, and practical exam windows."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q10: Where can I find updates regarding the new K-Scheme syllabus?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow10"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: All latest syllabus changes and MSBTE circulars are updated regularly in the 'Announcements' section."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q11: Which scholarships are covered in the Scholarship section?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow11"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: It includes details for MahaDBT, MSBTE Meritorious Scholarships, and various private financial aid programs."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q12:Can I fill out my exam form directly inside the app?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow12"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans:The app provides a direct link to the official MSBTE portal where you can log in with your enrollment number to complete the form."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+            <LinearLayout
+                android:id="@+id/layout_faq13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2E7D32"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="18dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Q13:What are the consequences of missing the exam form deadline?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_arrow13"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@android:drawable/arrow_down_float"
+                    app:tint="#FFFFFF" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_answer13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="20dp"
+                android:text="Ans: Missing the normal deadline results in a ₹200 late fee, while a further delay may attract a penalty of up to ₹1500."
+                android:textColor="#333333"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            //
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</ScrollView>

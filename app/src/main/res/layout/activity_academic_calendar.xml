@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MSBTE Academic Calendar &amp; K-Scheme"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#E65100"
+            android:layout_marginBottom="16dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="12dp">
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="The MSBTE Academic Calendar 2025–26 provides the roadmap for your entire academic year. Since the Winter 2025 results were just released on January 2nd, you are now entering the Even Semester (2nd, 4th, and 6th semesters) phase.
+Below is the schedule for the Summer 2026 session:
+1. Academic Term Dates (Even Semester)
+Commencement of Term: December 15, 2025
+First Class Test (Unit Test I): January 27 – January 29, 2026
+Second Class Test (Unit Test II): March 30 – April 2, 2026
+Conclusion of Term: April 4, 2026
+2. Examination Schedule (Summer 2026)
+This is the period when you will be appearing for your final semester-end assessments.
+3.Exam Form Filling Deadlines
+As mentioned earlier, these dates are strictly enforced. Missing them will result in heavy penalties or being barred from the exam.
+Normal Fee: February 2 – February 12, 2026
+Late Fee (₹200): February 14 – February 15, 2026
+Penalty (₹1500): February 17 – February 19, 2026
+4. Key Holidays and Breaks
+While the board sets the academic schedule, individual colleges may vary slightly on minor holidays. However, the Summer Vacation is typically scheduled after the theory exams in late May until the start of the next academic year on July 1, 2026.
+Tip for 1st Year Students: The transition from 1st to 2nd semester is fast. Your First Class Test is coming up at the end of this month (January 27th). Ensure your journals and practical manuals are up to date, as you won't get much time between the conclusion of the term and the practical exams in April.
+MSBTE Academic Calendar 2025-26 Explained
+This video provides a detailed breakdown of all the key dates and events for the current academic year to help you stay ahead of deadlines."
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#333"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="• Term Start: Dec 15, 2025\n• Unit Test I: Jan 27 – Jan 29, 2026\n• Unit Test II: Mar 30 – Apr 2, 2026\n• Term End: Apr 4, 2026\n\nExam Form Dates:\n• Normal Fee: Feb 2 – Feb 12\n• Late Fee: Feb 14 – Feb 15\n• Penalty: Feb 17 – Feb 19"
+                    android:textColor="#555"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            android:layout_marginBottom="16dp">
+            <LinearLayout
+                android:padding="16dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="The K-Scheme is the latest curriculum introduced by MSBTE (aligned with NEP 2020). It follows an Outcome-Based Education (OBE) pattern, which means marks are divided between continuous assessment and final exams to ensure you gain practical skills, not just theoretical knowledge.
+Here is the breakdown of the marking scheme for a typical 1st-year subject:
+1. Theory Assessment (Total: 100 Marks)
+Theory marks are usually split into two parts:
+Summative Assessment (SA-TH): 70 Marks
+This is your final End Semester Exam conducted by the board.
+Passing Marks Typically 28 out of 70 (40%).
+Formative Assessment (FA-TH): 30 Marks
+This is the average of two Unit Tests (Class Tests) conducted by your college.
+Each test is for 30 marks, and the final 30 marks are the average of the two.
+2. Practical Assessment
+Practical subjects are evaluated differently to ensure you are actually performing the experiments.
+Summative Assessment (SA-PR): 25 to 50 Marks
+This is the final external/internal practical exam.
+Formative Assessment (FA-PR): 25 to 50 Marks
+This is your Term Work. It is based on your continuous performance in the lab, manual completion, and attendance.
+Warning: If you do not secure the minimum passing marks in FA-PR, you will be Detained for that semester.
+3. Self-Learning Assessment (SLA)
+A unique feature of the K-Scheme is the SLA.
+These are marks (usually 25) allocated for micro-projects, assignments, or presentations.
+If you fail the SLA, you fail the entire course and must resubmit the work."
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#333"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="• Theory (100 Marks): 70 (Board) + 30 (Unit Tests)\n• Practical: SA-PR (25-50) + FA-PR Term Work (25-50)\n• SLA: 25 Marks (Micro-projects/Assignments)\n\nNote: Minimum 40% passing in Theory and FA-PR is mandatory."
+                    android:textColor="#555"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView android:text="Official Academic Calendar (PDF)" android:textStyle="bold" android:layout_marginBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="400dp" app:cardCornerRadius="8dp" android:layout_marginBottom="16dp">
+            <WebView android:id="@+id/webViewCalendar1" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Button
+            android:id="@+id/btnExamForm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Open MSBTE Exam Form Portal"
+            android:backgroundTint="#FF9800"
+            app:cornerRadius="8dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

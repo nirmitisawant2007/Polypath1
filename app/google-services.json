@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "453576016553",
+    "project_id": "polypath-fcdc3",
+    "storage_bucket": "polypath-fcdc3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:453576016553:android:adb529070b549c6ec41fb8",
+        "android_client_info": {
+          "package_name": "com.example.polypath"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPx-lSO82UdK05_LbioO5H4xL6-GlkPv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

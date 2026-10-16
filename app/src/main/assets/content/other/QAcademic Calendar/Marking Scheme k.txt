@@ -1,0 +1,21 @@
+The K-Scheme is the latest curriculum introduced by MSBTE (aligned with NEP 2020). It follows an Outcome-Based Education (OBE) pattern, which means marks are divided between continuous assessment and final exams to ensure you gain practical skills, not just theoretical knowledge.
+Here is the breakdown of the marking scheme for a typical 1st-year subject:
+1. Theory Assessment (Total: 100 Marks)
+Theory marks are usually split into two parts:
+Summative Assessment (SA-TH): 70 Marks
+This is your final "End Semester Exam" conducted by the board.
+Passing Marks: Typically 28 out of 70 (40%).
+Formative Assessment (FA-TH): 30 Marks
+This is the average of two Unit Tests (Class Tests) conducted by your college.
+Each test is for 30 marks, and the final 30 marks are the average of the two.
+2. Practical Assessment
+Practical subjects are evaluated differently to ensure you are actually performing the experiments.
+Summative Assessment (SA-PR): 25 to 50 Marks
+This is the final external/internal practical exam.
+Formative Assessment (FA-PR): 25 to 50 Marks
+This is your Term Work. It is based on your continuous performance in the lab, manual completion, and attendance.
+Warning: If you do not secure the minimum passing marks in FA-PR, you will be "Detained" for that semester.
+3. Self-Learning Assessment (SLA)
+A unique feature of the K-Scheme is the SLA.
+These are marks (usually 25) allocated for micro-projects, assignments, or presentations.
+If you fail the SLA, you fail the entire course and must resubmit the work.

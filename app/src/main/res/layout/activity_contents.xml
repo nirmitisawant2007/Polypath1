@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnStudyMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Study Material" />
+
+    <Button
+        android:id="@+id/btnScholarship"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Scholarship Information" />
+
+    <Button
+        android:id="@+id/btnExamForm"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Exam Form Information" />
+
+    <Button
+        android:id="@+id/btnAcademic"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Academic Calender " />
+
+    <Button
+        android:id="@+id/btnMarkingScheme"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Marking Scheme" />
+
+    <Button
+        android:id="@+id/btnAnnouncement"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Announcements" />
+
+    <Button
+        android:id="@+id/btnFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Feedback" />
+
+    <Button
+        android:id="@+id/btnAboutus"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="About Us" />
+
+</LinearLayout>

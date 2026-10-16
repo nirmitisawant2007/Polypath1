@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnOpenFAQs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View FAQs"
+            android:layout_gravity="end"
+            android:backgroundTint="#607D8B"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Give Your Feedback"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/etFeedbackName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Your Name"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/etFeedbackEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Your Email"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/etFeedbackComment"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Enter Comments"
+            android:gravity="top"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:numStars="5"
+            android:stepSize="1"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnSubmitFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Submit Feedback"
+            android:backgroundTint="#556B2F"
+            android:layout_marginTop="15dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#DDDDDD"
+            android:layout_marginVertical="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent Feedbacks"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TableLayout
+            android:id="@+id/tableFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow android:background="#EEEEEE" android:padding="5dp">
+                <TextView android:text="Name" android:textStyle="bold" />
+                <TextView android:text="Rating" android:textStyle="bold" />
+                <TextView android:text="Comment" android:textStyle="bold" />
+                <TextView android:text="Email" android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>

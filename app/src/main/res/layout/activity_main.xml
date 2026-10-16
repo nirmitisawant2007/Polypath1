@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"> <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_centerInParent="true">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:textColor="#2E7D32" /> <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back to PolyPath"
+            android:textColor="#666666"
+            android:layout_marginBottom="30dp"/>
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:drawableStart="@android:drawable/ic_dialog_email"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginBottom="15dp"/>
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableStart="@android:drawable/ic_lock_idle_lock"
+                android:drawablePadding="10dp"
+                android:padding="15dp"
+                android:background="@drawable/input_bg"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Log in"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:backgroundTint="#1B5E20"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="30dp"/>
+
+            <TextView
+                android:id="@+id/tvSignupLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? Register here!"
+                android:textColor="#2E7D32"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password?"
+                android:textColor="#FF6F00"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/curved_green_header"> <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Quiz On!"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-30dp"> <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:padding="16dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#E3F2FD"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp">
+
+            <Button
+                android:id="@+id/lvl1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:text="Level 1"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level2"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level3"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level4"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level5"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level6"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level7"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            app:cardBackgroundColor="#EEEEEE"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="2dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Button
+                    android:id="@+id/lvl8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:text="Level8"
+                    android:textColor="#000000"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/lock_icon"
+                    app:tint="@null" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+    </ScrollView>
+</LinearLayout>

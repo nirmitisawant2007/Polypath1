@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MSBTE Exam Form Info (Summer 2026)"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#556B2F"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Important Dates (Summer 2026)
+Based on the official academic calendar, here are the expected dates for filling your Summer 2026 exam forms:
+Normal Fee Period: February 2 – February 12, 2026
+With Late Fee (₹200): February 14 – February 15, 2026
+With Penalty (₹1500): February 17 – February 19, 2026"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Normal Fee: Feb 2 – Feb 12, 2026\n• Late Fee (₹200): Feb 14 – Feb 15\n• Penalty (₹1500): Feb 17 – Feb 19"
+            android:padding="8dp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Step-by-Step Filling Process
+Login: Go to the MSBTE Official Portal and click on the Exam Form link. You will need your Enrollment Number and a Password (usually provided by your college's exam cell).
+Verify Details: Once logged in, verify your personal details (Name, Father's Name, Mother's Name) and your course information.
+Select Subjects: Ensure all the subjects you are appearing for (both Theory and Practical/Oral) are correctly listed.
+Submit and Print: Click Submit to generate the exam form. Download and print the form immediately.
+College Confirmation: Take the printed copy and your exam fees to your college's office/exam cell. Your form is not valid until the college confirms it on their portal.
+
+3. Exam Fees
+Regular Fee: Typically around ₹600 for standard diploma courses.
+Late Fee: An additional ₹200 if you miss the first deadline.
+Super Penalty: If you miss even the late fee deadline, the penalty can go up to ₹1500."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Login on MSBTE Official Portal.\n2. Verify Subjects (Theory/Practical).\n3. Submit &amp; Download PDF.\n4. Submit hard copy + fee at college."
+            android:padding="8dp"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Checklist of Requirements
+Enrollment Number: This is your permanent ID for the entire diploma.
+Passport Photo/Signature: Usually, these are already in the system from your enrollment, but verify they are visible.
+Fees: Ensure you have the exact amount in the format required by your college (online payment, cash, or challan).
+Crucial Tip: Always check your subjects carefully before clicking submit. If there is a mistake in the elective subjects or backlog papers, only your college can rectify it through the RBTE (Regional Board of Technical Education)."
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="• Enrollment Number &amp; Password.\n• Check for backlogs/electives.\n• Passport photo/signature check."
+            android:padding="8dp"
+            android:textColor="#333333" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exam Form User Manual"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textColor="#556B2F" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_marginVertical="8dp">
+            <WebView
+                android:id="@+id/webViewExamPdf1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Button
+            android:id="@+id/btnApplyExam"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="OPEN MSBTE PORTAL"
+            android:backgroundTint="#556B2F"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+</ScrollView>

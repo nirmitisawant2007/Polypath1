@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E7D32" android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvSemesterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPUTER"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:letterSpacing="0.05"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginBottom="25dp"
+            android:textAllCaps="true"
+            android:shadowColor="#40000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="10dp"
+            app:cardBackgroundColor="#FFFFFF"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Semester"
+                    android:textSize="18sp"
+                    android:textColor="#555555"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"/>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:columnCount="2"
+                    android:rowCount="1"
+                    android:alignmentMode="alignMargins"
+                    android:columnOrderPreserved="false">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardSem1"
+                        android:layout_width="0dp"
+                        android:layout_height="180dp"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/tvNum1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"
+                                android:textSize="80sp"
+                                android:textStyle="bold"
+                                android:textColor="#DDDDDD" /> <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="First Sem"
+                            android:textStyle="bold"
+                            android:textColor="#333333"
+                            android:layout_marginTop="5dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardSem2"
+                        android:layout_width="0dp"
+                        android:layout_height="180dp"
+                        android:layout_columnWeight="1"
+                        android:layout_margin="10dp"
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="4dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:padding="10dp">
+
+                            <TextView
+                                android:id="@+id/tvNum2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2"
+                                android:textSize="80sp"
+                                android:textStyle="bold"
+                                android:textColor="#DDDDDD" /> <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Second Sem"
+                            android:textStyle="bold"
+                            android:textColor="#333333"
+                            android:layout_marginTop="5dp"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </GridLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
